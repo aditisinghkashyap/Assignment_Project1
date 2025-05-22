@@ -1,0 +1,19 @@
+{
+
+  "compilerOptions": {
+     "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "jsx": "react-jsx",  // ✅ Add this if missing
+    "module": "ESNext",
+    "target": "ES6",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
